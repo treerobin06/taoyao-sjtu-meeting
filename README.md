@@ -11,8 +11,10 @@
 
 ## 安装
 
-1. 装 **Tampermonkey** 浏览器扩展（[Edge](https://microsoftedge.microsoft.com/addons/detail/iikmkjmpaadaobahmlepeloendndfphd) / [Chrome](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo) / [Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/) / [Safari](https://apps.apple.com/app/tampermonkey/id1482490089) 付费）
-2. Chrome/Edge 需在 `chrome://extensions/` 或 `edge://extensions/` 打开"开发者模式"
+本工具箱是一个**油猴脚本**（user script），需要先装一个浏览器扩展来加载它。最常用的是 **Tampermonkey**（油猴）——一个能给指定网页注入自定义 JS 的扩展，详见 [tampermonkey.net](https://www.tampermonkey.net/)。
+
+1. 装 Tampermonkey：[Edge](https://microsoftedge.microsoft.com/addons/detail/iikmkjmpaadaobahmlepeloendndfphd) / [Chrome](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo) / [Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/) / [Safari](https://apps.apple.com/app/tampermonkey/id1482490089)（付费）
+2. Chrome/Edge 在 `chrome://extensions/` 或 `edge://extensions/` 打开"开发者模式"（Tampermonkey 加载 user script 需要）
 3. 点链接装脚本：**[sjtu-meeting-toolkit.user.js](https://github.com/treerobin06/taoyao-sjtu-meeting/raw/main/sjtu-meeting-toolkit.user.js)** → Tampermonkey 弹窗确认安装
 4. 打开 [my-meeting](https://meeting.sjtu.edu.cn/my-meeting)，登录后右下角应出现 🎯 圆形按钮
 
